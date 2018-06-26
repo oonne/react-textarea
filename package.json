@@ -2,7 +2,7 @@
   "name": "react-testarea",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://oonne.github.io/react-testarea/build/",
+  "homepage": "https://oonne.github.io/react-textarea/build/",
   "dependencies": {
     "classname": "0.0.0",
     "prop-types": "^15.6.1",
