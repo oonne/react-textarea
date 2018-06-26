@@ -4,7 +4,7 @@
 Textarea  for self-adaptation height
 
 ### Demo
-[Demo](https://oonne.github.io/react-textarta/build/)
+[Demo](https://oonne.github.io/react-textarea/build/)
 
 ### How to start
 * install dependencies
