@@ -1,0 +1,37 @@
+.textarea_wrapper {
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 12px 0;
+}
+
+.textarea_content {
+    position: relative;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 14px 36px 14px;
+    line-height: 18px;
+    font-size: .9rem;
+}
+
+.textarea_input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 14px 36px 14px;
+    box-sizing: border-box;
+    line-height: 18px;
+    font-size: .9rem;
+    color: #333;
+    text-align: left;
+    resize: none;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+}
