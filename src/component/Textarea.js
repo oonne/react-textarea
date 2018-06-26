@@ -47,7 +47,7 @@ class Textarea extends React.Component {
     return (
       <div className={containerClass}>
         <div className="textarea_content" dangerouslySetInnerHTML={this.renderContent(this.state.content)}></div>
-        <textarea className="textarea_input" onInput={this.onInput.bind(this)} />
+        <textarea className="textarea_input" onChange={this.onInput.bind(this)}  value={this.state.content} />
       </div>
     )
   }
