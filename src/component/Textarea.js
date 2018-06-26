@@ -30,6 +30,8 @@ class Textarea extends React.Component {
     this.setState({
       content: val
     })
+
+    this.props.onChange(e)
   }
 
   renderContent (text) {
